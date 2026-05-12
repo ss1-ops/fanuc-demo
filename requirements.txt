@@ -1,0 +1,12 @@
+# The mock controller itself is pure Python stdlib — nothing required.
+#
+# To run the demo client (drive_moveo.py) you need the library this whole demo
+# is about:
+fanuc_ucl>=1
+
+# Optional: the no-hardware stick-figure viewer (moveo_viz.py)
+matplotlib>=3.5
+
+# Optional: the ROS 2 / micro-ROS bridge (run_mock.py --moveo ros2) needs a
+# working ROS 2 install with rclpy + sensor_msgs on the PYTHONPATH — install
+# that via your ROS distro, not pip.
